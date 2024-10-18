@@ -34,6 +34,22 @@ const signupstyles = StyleSheet.create({
     fontSize: 18,
     textAlign: 'center',
   },
+  inputContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    borderColor: 'gray',
+    borderWidth: 1,
+    marginBottom: 10,
+    padding: 10,
+    width: '80%',
+  },
+  input: {
+    flex: 1,
+    paddingHorizontal: 10,
+  },
+  icon: {
+    marginRight: 10,
+  },
 });
 
 export default signupstyles;
